@@ -1,2 +1,1 @@
-# starter_html
-HTML code for the Common Project
+# f23_common_project_starter_code
