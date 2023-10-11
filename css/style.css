@@ -1,8 +1,9 @@
 body {
     background-color: #054fb9;
-    margin: 5%;
+    margin: 0% 5% 0% 5%;
 }
-  
+
+
 h1 {
     color: white;
     text-align: center;
@@ -61,3 +62,67 @@ ul{
     font-size: 14px;
     color: aliceblue;
 }
+
+
+
+/*added*/
+
+nav li{
+    display:inline;
+    padding-right:20px;
+  
+}
+  
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none; 
+}
+  
+  
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+  
+  
+nav{
+    background-color: #ffffff;
+    padding: 25px 0; 
+    text-align: left;
+}
+
+nav li:hover {
+   text-decoration: underline #054fb9 2px;
+}
+  
+nav li:focus {
+   text-decoration: underline #054fb9 2px;
+}
+
+nav ul li.active a {
+    color: white; 
+    background-color: #054fb9;     
+
+}
+
+.skip{
+    position: absolute;
+    top:-40px;
+    
+}
+
+.skip a:focus {
+    position: relative;
+    top:20px;
+}
+
+*:focus{
+    border: 2px black;
+  
+}
+  
